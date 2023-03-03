@@ -14,7 +14,7 @@ const styles = {
     },
     navLinkStyle: {
         textDecoration: 'none',
-        color: 'white'
+        color: 'blue'
     },
     signupAndSignin: {
         marginLeft: '10px'
@@ -42,7 +42,7 @@ class Navbar extends Component {
                                 }
                         activeStyle={{color: 'white', textDecoration: 'underline white'}}
                     >
-                        Hamster
+                        User Profile
                     </NavLink>
 
                     <NavLink
